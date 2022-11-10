@@ -63,7 +63,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 const NavBar = ({ query, setQuery }) => {
   const keyPressed = (e) => {
-    if (e.code === "Enter") {
+    if (e.keyCode === 13) {
       setQuery(e.target.value);
 
       // console.log(query);
