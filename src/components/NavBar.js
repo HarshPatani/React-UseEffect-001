@@ -3,11 +3,9 @@ import { styled, alpha } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
 import { Avatar } from "@mui/material";
-// import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import logo from "../assets/diet.png";
 
@@ -76,9 +74,6 @@ const NavBar = ({ query, setQuery }) => {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar sx={{ bgcolor: "#023e8a" }} position="sticky">
         <Toolbar>
-          {/* <IconButton>
-            <img src={logo} alt="logo" sx={{ width: "10px" }} />
-          </IconButton> */}
           <Avatar
             src={logo}
             sx={{
